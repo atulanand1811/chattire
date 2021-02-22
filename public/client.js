@@ -35,6 +35,5 @@ socket.on('receive',data=>{
 socket.on('leave',name=>{
     append(`${name} left the chat`,'center');
 })
-
 const name = prompt("Enter your name to join");
 socket.emit('new-user-joined', name);
