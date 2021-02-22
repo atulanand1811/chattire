@@ -1,0 +1,83 @@
+.logo{
+    display :block;
+    margin : auto;
+    width:50px;
+    height: 50px;
+}
+
+.container{
+    margin-top: 5px;
+    max-width: 955px;
+    background-color: aqua;
+    margin: auto;
+    height: 60vh;
+    padding: 33px;
+    overflow-y:auto;
+    margin-bottom: 20px;
+}
+
+.message{
+    width: 24%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.left{
+    background-color: #7b8be4;
+    float: left;
+    clear: both;
+
+}
+
+.right{
+    background-color: lightsteelblue;
+    float: right;
+    clear: both;
+
+}
+
+.center{
+    font-size: larger;
+    margin-left: 40%;
+    clear: both;
+}
+
+.headtop{
+    /* background-color: #e299b2;
+    margin : auto; */
+    margin-bottom: 8px;
+}
+
+#send-container{
+    text-align: center;
+    max-width: 985px;
+    width: 100%;
+    display: block;
+    margin: auto;
+    
+}
+
+
+
+body{
+    background-image: linear-gradient(#00a6ff,#c0ddff);
+    height: 100vh;
+}
+
+
+#messageInp{
+    width: 94%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 35px;
+    margin-top: 2px;
+}
+
+#btn {
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 4px;
+    height: 38px;
+}
